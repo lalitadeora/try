@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .loremimg{
+            margin: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+        }
+         .loremimg img {
+         border-radius: 10px;
+         }
+        #text{
+            margin: 20px;
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>hello!🌸🐰</h1>
+    <a href="./home.html">home</a>
+ <div class="loremimg">
+    <img  id="randomImage" src="https://picsum.photos/200/300" />
+    <img  id="randomImage1" src="https://picsum.photos/200/300" />
+    <img  id="randomImage2" src="https://picsum.photos/200/300" />
+    <img id="randomm" src="https://picsum.photos/200/300" />
+      <img id="randommm" src="https://picsum.photos/200/300" />
+       <img id="randommm1" src="https://picsum.photos/200/300" /></div>
+       <p id="text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo illo minus suscipit vitae dolorem earum qui,
+         aspernatur dolores nostrum consequuntur nihil voluptates ex fuga labore ducimus quaerat expedita quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente exercitationem 
+         voluptatem doloremque eaque, rem id iusto reprehenderit assumenda, nesciunt eos magni est rerum iste tempore suscipit explicabo 
+         eius illo omnis lorea</p>
+         <p id="text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo illo minus suscipit vitae dolorem earum qui,
+         aspernatur dolores nostrum consequuntur nihil voluptates ex fuga labore ducimus quaerat expedita quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente exercitationem 
+         voluptatem doloremque eaque, rem id iusto reprehenderit assumenda, nesciunt eos magni est rerum iste tempore suscipit explicabo 
+         eius illo omnis lorea</p>
+         <p id="text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo illo minus suscipit vitae dolorem earum qui,
+         aspernatur dolores nostrum consequuntur nihil voluptates ex fuga labore ducimus quaerat expedita quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente exercitationem 
+         voluptatem doloremque eaque, rem id iusto reprehenderit assumenda, nesciunt eos magni est rerum iste tempore suscipit explicabo 
+         eius illo omnis lorea</p>
+         <p id="text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo illo minus suscipit vitae dolorem earum qui,
+         aspernatur dolores nostrum consequuntur nihil voluptates ex fuga labore ducimus quaerat expedita quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente exercitationem 
+         voluptatem doloremque eaque, rem id iusto reprehenderit assumenda, nesciunt eos magni est rerum iste tempore suscipit explicabo 
+         eius illo omnis lorea</p>
+         <p id="text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo illo minus suscipit vitae dolorem earum qui,
+         aspernatur dolores nostrum consequuntur nihil voluptates ex fuga labore ducimus quaerat expedita quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente exercitationem 
+         voluptatem doloremque eaque, rem id iusto reprehenderit assumenda, nesciunt eos magni est rerum iste tempore suscipit explicabo 
+         eius illo omnis lorea</p><p id="text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo illo minus suscipit vitae dolorem earum qui,
+         aspernatur dolores nostrum consequuntur nihil voluptates ex fuga labore ducimus quaerat expedita quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente exercitationem 
+         voluptatem doloremque eaque, rem id iusto reprehenderit assumenda, nesciunt eos magni est rerum iste tempore suscipit explicabo 
+         eius illo omnis lorea</p>
+         <img  src="./img/random.png" style="width: 500px; height: 500px;">
+    
+</body>
+<script>
+    const img = document.getElementById("randomImage");
+    const img1 = document.getElementById("randomImage1");
+    const img2 = document.getElementById("randomImage2");
+    const img3= document.getElementById("randomm");
+    const img4= document.getElementById("randommm");
+  const img5= document.getElementById("randommm1");
+ 
+    setInterval(() => {
+        
+        img.src = `https://picsum.photos/200/300?random=${Math.floor(Math.random() * 10000)}`;
+    }, 1000); 
+   
+        setInterval(() => {
+        
+        img1.src = `https://picsum.photos/200/300?random=${Math.floor(Math.random() * 10000)}`;
+    }, 1000); 
+   
+     setInterval(() => {
+        
+        img2.src = `https://picsum.photos/200/300?random=${Math.floor(Math.random() * 10000)}`;
+    }, 1000); 
+   setInterval(() => {
+    img3.src=`https://picsum.photos/200/300?random=${Math.floor(Math.random() * 10000)}`;
+   }, 1000);
+        
+
+          setInterval(() => {
+    img4.src=`https://picsum.photos/200/300?random=${Math.floor(Math.random() * 10000)}`;
+   }, 1000);
+        
+          setInterval(() => {
+    img5.src=`https://picsum.photos/200/300?random=${Math.floor(Math.random() * 10000)}`;
+   }, 1000);
+        
+      
+</script>
+</html>
